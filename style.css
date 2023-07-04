@@ -1,0 +1,42 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+button{
+    background-color: firebrick;
+    color: aqua;
+    padding: 10px 20px;
+    border: 5px solid black;
+    font-size: 100px;
+    border-radius: 150px;
+    transition: all 500ms;
+}
+
+
+button:hover{
+        background-color: rgb(56, 112, 126);
+        color:coral;
+        transform: rotate(-360deg);
+        box-shadow: 10px 10px 20px green;
+}
+
+.loop{
+    animation: loop 10ms infinite ;
+}
+
+@keyframes loop {
+
+    100%{
+    transform: rotate(-360deg);
+    }
+}
+
+
+
+
+
+
